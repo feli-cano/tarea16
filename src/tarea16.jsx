@@ -245,7 +245,7 @@ export default function Tarea16() {
         {tab === 0 && <>
           <SectionHeader num="1a" title='y = x³ + x' />
           <Card title="Intersecciones" color={COLORS.accent}>
-            <MathText>Intersección con eje x (y=0): x³ + x = 0 → x(x²+1) = 0 → x = 0 (único, ya que x²+1 > 0 siempre)</MathText>
+            <MathText>Intersección con eje x (y=0): x³ + x = 0 → x(x²+1) = 0 → x = 0 (único, ya que x²+1 &gt; 0 siempre)</MathText>
             <MathText>Intersección con eje y (x=0): y = 0³ + 0 = 0</MathText>
             <MathText>→ Único punto de intersección: (0, 0)</MathText>
             <PointsTable pts={pts1a} />
